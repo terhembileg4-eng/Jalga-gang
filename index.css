@@ -1,0 +1,61 @@
+.container{
+width: 1440;
+height: 3598;
+opacity: 1;
+top: 247px;
+left: 353px;
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  background: #101010;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.dot{
+    color: green;  
+}
+.box{
+text-align: center;
+padding-top: 40px;
+
+}
+.khuvsgul{
+color: black;
+font-weight: 700;
+font-style: Bold;
+font-size: 72px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: bottom;
+}
+.trip{
+color: #ABABAB;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: bottom;
+text-transform: uppercase;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.MAP{
+    padding-top: 240px;
+}
