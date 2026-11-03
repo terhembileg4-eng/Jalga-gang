@@ -93,6 +93,10 @@ border-radius: 12px;
     flex-direction: column;
     font-weight: 700;
 }
+#middle-section-route-title-container > h1{
+    color: var(--primary-text-color);
+    font-size: 48px;
+}
 
 #middle-section-route-title-container > h4{
     color: var(--secondary-text-color);
