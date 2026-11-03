@@ -1,58 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jalgagang</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <title>Landing page</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<link rel="stylesheet" href="index.css">
 <body>
-<div class="container">
-    <div class="header">
-        <span class="title">pine<br>
-            tour<span class="dot"> <br>.</span>
-        </span>
-    </div>
-    <div class="box">
-        <h1 class="khuvsgul">Khuvsgul Lake</h1>
-        <h1 class="trip">TRIP</h1>
-        <div class="images">
-        <img src="Group 16.jpg" alt="">
-        <img src="Group 15.jpg" alt="">
-        <img src="Group 14.jpg" alt="">
-        <img src="Group 13.jpg" alt="">
-        </div>
-    </div>
-    <div class="container2">
-     <div class="guide">
-    <h5 class="text1">TOURS | 6 DAYS</h5>
-    <h4 class="text2">Destination of Our Agency</h4>
-    <div class="destination">
-        <img src="Frame 27.png" alt="">
-        <div class="text-column">
-        <h2>Sukhbaatar square</h2>
-        <h3>Ulaanbator</h3>
-        <h2>Khusvgul lake</h2> 
-        <h3>Khuvsgul</h3>
-        <h2>Khorgiin togoo</h2> 
-        <h3>Arkhangai</h3>
-        <h2>Terkhiin tsagaan lake</h2> 
-        <h3>Arkhangai</h3>
-        <h2>Amarbaysgalant monastery</h2>
-        <h3>Bulgan</h3>
-        <h2>Sukhbaatar square</h2> 
-        <h3>Ulaanbator</h3>
-        </div>
-    </div>
-     </div>
-     <div class="map">
-        <img src="map.jpg" alt="" class="bottom">
-        <img src="Vector 1.png" alt="" class="top">
+    <!--header-->
+    <header>
+        <img src="Logo.png" alt="">
+    </header>
+    <main>
+        <!--top section-->
+        <section id="top-ection">
+            <div id="top-section-title-container">
+                <h1>Khuvsgul Lake</h1>
+                <h4>TRIP</h4>
+            </div>
+            <div id="top-section-images-container">
+                <img src="zurag1.jpg" alt="2">
+                <img src="zurag2.jpg" alt="">
+                <img src="zurag3.jpg" alt="">
+                <img src="zurag4.jpg" alt="">
+            </div>
+        </section>
 
-     </div>
+        <!--middle section-->
+        <section id="middle-section">
+            <div id="middle-section-route">
+            <div id="middle-section-route-title-container">
+                <h4>Tours | 6 DAYS</h4>
+                <h1>
+                    Destination of <br />
+                    Our Agency
+                </h1>
+            </div>
+
+            <div id="middle-section-route-container">
+                <div class="middle-section-routes">
+                    <div class="middle-section-route-day">
+                        D1
+                        <div class="day-dash"></div>
+                    </div>
+                    <div class="middle-section-route-name-container">
+                        <p>Sukhbaatar square</p>
+                        <p>Ulaanbator</p>
+                    </div>
+                </div>
+                <div class="middle-section-routes">
+                    <div class="middle-section-routes-day">
+                        D2
+                        <div class="day-dash"></div>
+                    </div>
+                    <div class="middle-section-route-name-container">
+                        <p>Khusvgul lake</p>
+                        <p>Khusvgul</p>
+                    </div>
+                </div>
+                <div class="middle-section-routes">
+                    <div class="middle-section-route-day">
+                        D3
+                        <div class="day-dash"></div>
+                    </div>
+                    <div class="middle-section-route-name-container">
+                        <p>Khorgiin togoo</p>
+                        <p>Arkhangai</p>
+                    </div>
+                </div>
+                <div class="middle-section-routes">
+                    <div class="middle-section-route-day">
+                        D4
+                        <div class="day-dash"></div>
+                    </div>
+                    <div class="middle-section-route-name-container">
+                        <p>Terkhiin tsagaan lake</p>
+                        <p>Arkhangai</p>
+                    </div>
+                </div>
+                <div class="middle-section-routes">
+                    <div class="middle-section-route-day">
+                        D5
+                        <div class="day-dash"></div>
+                    </div>
+                    <div class="middle-section-route-name-container">
+                        <p>Amarbaysgalan monastry</p>
+                        <p>Bulgan</p>
+                    </div>
+                </div>
+                <div class="middle-section-routes">
+                    <div class="middle-section-route-day">D6</div>
+                    <div class="middle-section-route-name-container">
+                        <p>Sukhbaatar square</p>
+                        <p>Ulaanbator</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="middle-section-map">
+            <img src="map.jpg" alt="">
+            </div>
+        </section>
+        
+        <!--bottom section-->
+        <section id="bottom-section">
+            <div id="bottom-section-title-container">
+                <h4>Pricing</h4>
+                <h1>
+                    Pricing of <br />
+                    Our Agency
+                </h1>
+            </div>
+            <div id="bottom-section-cards">
+                <div class="bottom-section-card">
+                    <h4>Starter pack</h4>
+                    <div class="text-space">
+                       <ul>
+                        <li>Trip</li>
+                        <li>Hotel</li>
+                        <li>Breakfast</li>
+                        <li>Lunch</li>
+                        <li>Dinner</li>
+                       </ul>
+                    </div>
+                    <br />
+                    <h3>$2100</h3>
+                </div>
+                <div class="bottom-section-card">
+                    <h4>Luxury pack</h4>
+                    <div class="text-space">
+                        <ul>
+                            <li><b>Starter pack</b></li>
+                            <li>Flights</li>
+                            <li>Cruise trip</li>
+                            <li>Cruise trip</li>
+                            <li>Cruise trip</li>
+                        </ul>
+                        <br />
+                    </div>
+                    <h3>$4300</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+    <div id="footer-background">
+        <footer>
+            <div id="top-footer">
+                <h1>Are you ready?</h1>
+                <button id="footer-button">Order now</button>
+            </div>
+            <nav>
+                <div id="footer-container">
+                    <h1>Pine <br />Tour.</h1>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=61551460247674">
+                            <img src="facebook.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/direct/t/18097533830071412">
+                            <img src="instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </footer>
     </div>
-
-</div>
-
 </body>
+
+
 </html>
