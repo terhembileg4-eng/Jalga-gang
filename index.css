@@ -105,11 +105,130 @@ border-radius: 12px;
 }
 
 #middle-section-map{
-    background-image:  url(map.jpg);
+    /* background-image:  url(map.jpg);
+    width: 692px;
+    height: 845px; */
+    position: relative;
     width: 692px;
     height: 845px;
 }
-
+.map{
+    width: 692px;
+    height: 845px;
+    display: block;
+    border-radius: 20px;
+}
+.route{
+    position: absolute;
+    right: 36px;
+    top: 226px;
+    bottom: 311px;
+}
+.flags{
+    position: absolute;
+}
+#flag1{
+    top: 461px;
+    bottom: 328px;
+    left: 641px;
+    right: 5px;
+}
+#flag2{
+    top: 296px;
+    bottom: 493px;
+    right: 106px;
+    left: 551px;
+}
+#flag3{
+    top: 451px;
+    bottom: 338px;
+    right: 572px;
+    left: 85px;
+}
+#flag4{
+    top: 461px;
+    bottom: 328px;
+    right: 605px;
+    left: 52px;
+}
+#flag5{
+    top: 182px;
+    bottom: 607px;
+    right: 544px;
+    left: 113px;
+}
+.label{
+    position: absolute;
+    font-weight: 800;
+    font-size: 8px;
+}
+#label1{
+    top: 467px;
+    bottom: 362px;
+    left: 655px;
+    right: 10px;
+}
+#label2{
+    top: 302px;
+    bottom: 523px;
+    left: 565px;
+    right: 108px;
+}
+#label3{
+    top: 457px;
+    bottom: 380px;
+    left: 99px;
+    right: 574px;
+}
+#label4{
+    top: 466px;
+    bottom: 363px;
+    left: 66px;
+    right: 607px
+}
+#label5{
+    top: 187px;
+    bottom: 642px;
+    left: 127px;
+    right: 546px;
+}
+.texts{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    line-height: 100%;
+    font-family: arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: right;
+}
+#text1{
+    top: 501px;
+    bottom: 332px;
+    right: 60px;
+}
+#text2{
+    top: 325px;
+    bottom: 492px;
+    right: 147px;
+}
+#text3{
+    top: 432px;
+    bottom: 401px;
+    right: 521px;
+    left: 90px;
+}
+#text4{
+    top: 416px;
+    bottom: 381px;
+    right: 602px;
+}
+#text5{
+    top: 214px;
+    bottom: 602px;
+    right: 490px;
+    left: 125px;
+}
 #middle-section-route-container{
     display: flex;
     flex-direction: column;
