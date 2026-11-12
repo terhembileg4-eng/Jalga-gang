@@ -256,7 +256,7 @@ border-radius: 12px;
     border-left: 3px dashed #1d1f24;
     height: 45px;
     position: absolute;
-    left: calc(60% - 1.5px);
+    left: calc(50% - 1.5px);
     bottom: -45px;
 }
 
@@ -352,8 +352,15 @@ border-radius: 12px;
     text-align: center;
 }
 #footer-button{
-    columns: white ;
+    display: inline-block;
+    width: 130px;
+    height: 44px;
+    background-color: #18BA51 !important;
+    border-radius: 10px !important;
+    border: none;
+    color: white;
     margin-top: 10px;
+    cursor: pointer;
 }
 #top-footer > h1{
     font-size: 32px;
@@ -361,11 +368,13 @@ border-radius: 12px;
     line-height: 39.01px;
     color: #ffffff;
 }
-#top-footer> button{
+#top-footer > button {
     width: 130px;
     height: 44px;
     background-color: #18BA51;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 footer nav{
     padding: 80px 120px;
