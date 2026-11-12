@@ -62,6 +62,7 @@ section{
 #top-section-images-container{
     display: flex;
     gap: 21px;
+    border-radius: 20px;
 }
 
 #top-section-title-container > img {
